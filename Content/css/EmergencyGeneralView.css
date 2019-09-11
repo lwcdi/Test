@@ -1,0 +1,175 @@
+﻿body {
+}
+
+.rectangleTimeCount {
+    width: 120px;
+    height: 30px;
+    background-color: #9AFF9A;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.rectangleBtn {
+    width: 120px;
+    height: 30px;
+    background-color: #5CACEE;
+    border-radius: 0px;
+    padding: 2px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.View_Title {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+
+.Title_Left {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.Title_Right {
+    float: right;
+    display: inline-block;
+    /*margin-top: 12px;*/
+}
+
+.Obj_Info {
+    width: 100%;
+    height: 195px;
+}
+
+    .Obj_Info .OBJ_ITEM {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+
+.OBJ_ITEM {
+    width: 120px;
+    height: 120px;
+}
+
+    .OBJ_ITEM .VALUE {
+        height: 50px;
+        line-height: 50px;
+        color: #008000;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: '华文中宋 Bold', '华文中宋';
+    }
+
+    .OBJ_ITEM .REMARK {
+        color: #ffffff;
+        background-color: #00cc33;
+        text-align: center;
+        width: 110px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: '华文中宋 Regular', '华文中宋';
+        margin-top: 20px;
+    }
+
+.TEXTTITLE {
+    display: inline-block;
+    height: 30px;
+    font-family: '华文中宋 Bold', '华文中宋';
+    font-weight: 700;
+    color: #1E1E1E;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.TEXTBTN {
+    display: inline-block;
+    font-family: '华文中宋 Regular', '华文中宋';
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 1px;
+    float: right;
+    background-color: #009dda;
+}
+
+.TEXTBTNL {
+    display: inline-block;
+    font-family: '华文中宋 Regular', '华文中宋';
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 3px;
+    float: right;
+    background-color: #009dda;
+}
+
+.TEXTBTNSEL {
+    background-color: #00cc33;
+}
+
+.Obj {
+    width: 150px;
+    height: 95%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+    .Obj .ITEM {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+
+.ITEM {
+    max-width: 220px;
+    max-height: 120px;
+}
+
+    .ITEM .VAL {
+        height: 40px;
+        line-height: 40px;
+        color: #008000;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: '华文中宋 Bold', '华文中宋';
+    }
+
+    .ITEM .TEXT {
+        height: 30px;
+        font-family: '华文中宋 Bold', '华文中宋';
+        font-weight: 700;
+        color: #1E1E1E;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .ITEM .NOTE {
+        color: #ffffff;
+        background-color: #00cc33;
+        text-align: center;
+        width: 110px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: '华文中宋 Regular', '华文中宋';
+    }

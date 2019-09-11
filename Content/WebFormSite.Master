@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebFormSite.master.cs" Inherits="UI.Web.Content.WebFormSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/content/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="/content/theme/<%=CurrentUser.ThemeName %>/style.css" />
+    <link type="text/css" rel="stylesheet" id="easyui_theme" href="/scripts/easyui/themes/<%=CurrentUser.ThemeName %>/easyui.css" />
+    <link type="text/css" rel="stylesheet" href="/content/css/icon.css" />
+    <link type="text/css" rel="stylesheet" href="/content/css/css3btn.css" />
+
+    <script type="text/javascript" src="/scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/jQuery.cookie.js"></script>
+    <script type="text/javascript" src="/scripts/easyui/jquery.easyui.min.js"></script>
+    <%
+        if (LangHelper.Name == LangEnum.ZHCN.ToString().ToLower())
+        {
+    %>
+    <script type="text/javascript" src="/scripts/easyui/locale/easyui-lang-zh_CN.js"></script>
+    <%
+        }
+        else
+        {
+    %>
+    <script type="text/javascript" src="/scripts/easyui/locale/easyui-lang-en.js"></script>
+    <%
+        }
+    %>
+    <script type="text/javascript" src="/Scripts/easyui/datagrid-filter.js"></script>
+    <script type="text/javascript" src="/scripts/easyui/easyui-validate-rules.js"></script>
+    <script type="text/javascript" src="/scripts/easyui/easyui.extensions.js?v=18"></script>
+    <script type="text/javascript" src="/scripts/easyui/easyloader.js"></script>
+    <script type="text/javascript" src="/content/js/common.js?v=1"></script>
+    <script type="text/javascript" src="/content/js/listModel.js?v=8"></script>
+    <script type="text/javascript" src="/Scripts/echarts.min.js"></script>
+    <script type="text/javascript" src="/Scripts/validate.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+    <script type="text/javascript">
+        if (top.location == self.location) {
+            top.location = '/';
+        }
+
+        var PAGESIZE = <%=CurrentUser.GridRows%>;
+
+        $(function() {
+            $('#toolbar,.toolbar').css({
+                height:'28px',
+                padding:'1px 2px',
+                'padding-bottom': '0px'
+            });
+        });
+    </script>
+</head>
+<body style="height: 100%; width: 100%; border: none; overflow: hidden;">
+    <div style="padding: 2px; margin: 0px">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
+

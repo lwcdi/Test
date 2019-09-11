@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <lang code="add_success" zhcn="添加成功！" en="Add success!"/>
+  <lang code="add_success" zhcn="添加失败！" en="Add failure!"/>
+  <lang code="btn_cancel" zhcn="取消" en="Cancel"/>
+  <lang code="btn_ok" zhcn="确定" en="OK"/>
+  <lang code="btn_search" zhcn="查询" en="Search"/>
+  <lang code="btn_select" zhcn="选择..." en="select..."/>
+  <lang code="del_confirm" zhcn="确认要执行删除操作吗？" en="Are you sure you want to delete?"/>
+  <lang code="del_failure" zhcn="删除失败！" en="Delele failure"/>
+  <lang code="del_success" zhcn="删除成功！" en="Delete success!"/>
+  <lang code="dev_multilang_edit_title" zhcn="多语言信息" en="Multi-Language"/>
+  <lang code="edit_failure" zhcn="编辑失败" en="Edit failure"/>
+  <lang code="edit_success" zhcn="编辑成功！" en="Edit success"/>
+  <lang code="exit_login_confirm" zhcn="您确定要退出本次登录吗?" en="Are you sure you want to exit this login?"/>
+  <lang code="footer_text" zhcn="版权归XXXX公司所有2015-2020" en="All rights reserved for XXXX Company 2015-2020"/>
+  <lang code="login_expire" zhcn="登录已过期，请重新登录" en="Login Expire"/>
+  <lang code="login_name" zhcn="登录名" en="Login Name"/>
+  <lang code="logout" zhcn="安全退出" en="Logout"/>
+  <lang code="nav_menu" zhcn="导航菜单" en="Menu Navigation"/>
+  <lang code="new_pwd" zhcn="新密码" en="New Password"/>
+  <lang code="no" zhcn="否" en="No"/>
+  <lang code="none_select_row" zhcn="请选择一行进行操作！" en="Please select one row！"/>
+  <lang code="old_pwd" zhcn="旧密码" en="Old Password"/>
+  <lang code="operate_failure" zhcn="操作失败！" en="Operate failure!"/>
+  <lang code="operate_success" zhcn="操作成功！" en="Operate success!"/>
+  <lang code="pwd_confirm" zhcn="确认密码" en="Confirm Password"/>
+  <lang code="system_name" zhcn="污染源综合管控业务系统" en="XXXX System"/>
+  <lang code="system_prompt" zhcn="系统提示" en="System Prompt"/>
+  <lang code="tab_close" zhcn="关闭" en="Close"/>
+  <lang code="tab_close_all" zhcn="全部关闭" en="Close All"/>
+  <lang code="tab_close_all_confirm" zhcn="确认要关闭所有窗口吗?" en="Are you sure you want to close all windows?"/>
+  <lang code="tab_close_left" zhcn="关闭左侧标签" en="Close Left"/>
+  <lang code="tab_close_other" zhcn="除此之外全部关闭" en="Close Other"/>
+  <lang code="tab_close_right" zhcn="关闭右侧标签" en="Close Right"/>
+  <lang code="tab_exit" zhcn="退出" en="Exit"/>
+  <lang code="tab_refresh" zhcn="刷新" en="Refresh"/>
+  <lang code="update_pwd" zhcn="修改密码" en="Update Password"/>
+  <lang code="update_pwd_success" zhcn="密码修改成功！请重新登录。" en="Password modification success! Please log in again."/>
+  <lang code="welcome" zhcn="欢迎" en="Welcome"/>
+  <lang code="welcome_use" zhcn="欢迎使用" en="Welcome Use"/>
+  <lang code="yes" zhcn="是" en="Yes"/>
+  <lang code="bas_UserNameExist" zhcn="用户名不存在！" en="User Name is not exists!"/>
+</xml>
+

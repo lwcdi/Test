@@ -1,0 +1,87 @@
+﻿#buttonDiv {
+            /*width: 400px;*/
+            height: 31px;
+            /*border: 1px solid black;*/
+            background: #ffffff;
+            position: absolute;
+            /*left: 0px;
+            top: 35px;*/
+            z-index: 10;
+            border: 1px solid blue;
+        }
+
+            #buttonDiv div {
+                float: left;
+                height: 31px;
+                padding: 0px 5px 0px 25px;
+                font-size: 13px;
+                cursor: pointer;
+                /*border: 1px solid black;*/
+            }
+
+                #buttonDiv div span {
+                    display:inline-block;
+                    padding-top:5px;
+                }
+
+        #buttonDivAllGreen {
+            margin-left:6px;
+            background:url(/Content/img/map/person-all.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivAirStation {
+            background:url(/Content/img/map/station-all.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivMonitor {
+            background:url(/Content/img/map/station-all.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivRed {
+            background:url(/Content/img/map/point-red.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivGray {
+            background:url(/Content/img/map/point-gray.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivRestaurant {
+            background: url(/Content/img/map/point-restaurant.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivConstructionSite {
+            background:url(/Content/img/map/point-constructionSite.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivCommunity {
+            background:url(/Content/img/map/point-community.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivGasStation {
+            background:url(/Content/img/map/point-gasStation.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivGasStationAll {
+            background:url(/Content/img/map/point-gasStationAll.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivIndustry {
+            background:url(/Content/img/map/point-industry.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivAutomobile {
+            background:url(/Content/img/map/point-automobile.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivMixingStation {
+            background:url(/Content/img/map/point-MixingStation.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivSchool {
+            background:url(/Content/img/map/point-school.png) no-repeat left center;
+            background-size: 20px 20px;
+        }
+        #buttonDivVillage {
+            background:url(/Content/img/map/point-Village.png) no-repeat left center;
+            background-size: 20px 20px;
+        }

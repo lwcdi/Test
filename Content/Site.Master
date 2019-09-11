@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />    
+    <link type="text/css" rel="stylesheet" href="/content/theme/<%=CurrentUser.ThemeName %>/style.css" />
+    <link type="text/css" rel="stylesheet" id="easyui_theme" href="/scripts/easyui1.4.2/themes/<%=CurrentUser.ThemeName %>/easyui.css" />
+    <link type="text/css" rel="stylesheet" href="/content/css/icon.css" />
+    <link type="text/css" rel="stylesheet" href="/content/css/css3btn.css" />
+   <link type="text/css" rel="stylesheet" href="/content/css/common.css" />
+
+    <script type="text/javascript" src="/scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/jQuery.cookie.js"></script>
+    <script type="text/javascript" src="/scripts/easyui1.4.2/jquery.easyui.min.js"></script>
+    <%
+        if (LangHelper.Name == LangEnum.ZHCN.ToString().ToLower())
+        {
+    %>
+    <script type="text/javascript" src="/scripts/easyui/locale/easyui-lang-zh_CN.js"></script>
+    <%
+        }
+        else
+        {
+    %>
+    <script type="text/javascript" src="/scripts/easyui/locale/easyui-lang-en.js"></script>
+    <%
+        }
+    %>
+    <script type="text/javascript" src="/Scripts/easyui/datagrid-filter.js"></script>
+    <script type="text/javascript" src="/scripts/easyui/easyui-validate-rules.js"></script>
+    <script type="text/javascript" src="/scripts/easyui/easyui.extensions.js?v=18"></script>
+    <script type="text/javascript" src="/scripts/easyui1.4.2/easyloader.js"></script>
+    <script type="text/javascript" src="/content/js/common.js?v=1"></script>
+    <script type="text/javascript" src="/content/js/listModel.js?v=8"></script>
+    <script type="text/javascript" src="/Scripts/echarts.min.js"></script>
+    <script type="text/javascript" src="/content/js/system.js?v=1"></script>
+    <script type="text/javascript" src="/Scripts/validate.js"></script>
+    <script type="text/javascript" src="/content/js/page.js?v=1"></script>
+    <script type="text/javascript" src="/content/js/FileUpload.js"></script>
+    <script type="text/javascript" src="/content/js/rdlc.js"></script>
+<%--      <script type="text/javascript" src="/content/js/ListMoban.js?v=20180411"></script>--%>
+    <script type="text/javascript" src="/Scripts/commJquery.js?v=20180412"></script>
+     <script type="text/javascript" src="/content/js/ListMoban.js?v=20180424"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+    <script type="text/javascript">
+        if (top.location == self.location) {
+            top.location = '/';
+        }
+
+        var PAGESIZE = <%=CurrentUser.GridRows%>;
+        var userJson=<%=CurrentUser.UserJson %>;
+
+        
+        $(function() {
+            $('#toolbar,.toolbar').css({
+                height:'28px',
+                padding:'1px 2px',
+                'padding-bottom': '0px'
+            });
+
+            $(".combo").click(function () {
+                var cb = $(this).prev();
+                if (cb && !cb.attr("disabled")) cb.combobox("showPanel");
+            });
+        });
+    </script>
+</head>
+<body style="height: 100%; width: 100%; border: none; overflow: hidden;">
+    <div style="padding: 2px; margin: 0px">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

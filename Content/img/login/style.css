@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section ,button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul, li{ list-style:none;}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:active {
+	outline: none;
+}
+body{ font-size:14px;}
+html,body{ height:100%;}
+/*login*/
+.loginBackground{ background:url(loginBackground.png) #dfefff;}
+.layoutRight{ display:inline; float:right;}
+.layoutLeft{ display:inline; float:left;}
+.wap {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -255px;
+    height: 510px;
+    width: 100%;
+    background: url(loginBg.jpg) no-repeat center bottom;
+}
+.layout{  overflow:hidden; width:980px; margin:0 auto; }
+h1.loginHeader{ overflow:hidden; height:60px; background:#007493; }
+h1.loginHeader .layout{ overflow:hidden; height:60px; background:url(softLogo.png)  no-repeat left top;}
+h1.loginHeader .layout .layoutRight{ font-size:14px; color:#1591b7; padding-top:20px;}
+h1.loginHeader .layout .layoutRight span{ display:inline-block; padding:0 6px; }
+h1.loginHeader .layout .layoutRight a{ color:#fff;}
+h1.loginHeader .layout .layoutRight a:hover{ color:#66ccff;}
+
+.loginMain {
+    overflow: hidden;
+    height: 450px;
+}
+.loginMain .layoutRight{ overflow:hidden; width:300px; margin-top:45px; border-radius:8px; background-color:#FFF; }
+.loginMain .layoutRight h2{text-align:center; font-size:18px; line-height:60px; height:60px;  background-color:#e6f7ff; }
+.loginMain .layoutRight ul li{ margin:25px 20px;}
+.loginMain .layoutRight ul li.loginUser{ padding:6px 0 6px 40px ;  border:1px solid #ccc; border-radius:6px; overflow:hidden;  background:url(loginUser.png) no-repeat left center; }
+.loginMain .layoutRight ul li.loginUser input{ font-size:18px; padding:4px;border:none; outline:none;}
+.loginMain .layoutRight ul li.loginPs{ padding:6px 0 6px 40px; border:1px solid #ccc; border-radius:6px; overflow:hidden; background:url(loginPs.png) no-repeat left center; }
+.loginMain .layoutRight ul li.loginPs input{ font-size:18px; padding:4px;border:none; outline:none;}
+.loginMain .layoutRight ul li button{ overflow:hidden; margin-bottom:30px; margin-top:10px; cursor:pointer; border-radius:6px; text-align:center; width:100%; border:none; height:50px; line-height:50px; color:#FFF; font-size:18px; background-color:#009bbf;  }
+.loginMain .layoutRight ul li button:hover{ background-color:#007493; }
+
+/*layout*/
+

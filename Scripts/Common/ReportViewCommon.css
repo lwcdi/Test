@@ -1,0 +1,135 @@
+﻿.Views {
+    line-height: 1.1;
+    font-size: 12px;
+    font-family: SimSun, Microsoft YaHei;
+    overflow-y: scroll;
+    height: 800px;
+}
+
+.ViewCommon {
+    width: 40%;
+    /*height:300px;*/
+    float: left;
+    /*border: 1px solid #E4E4E4;*/
+    margin: 20px 10px 0px 20px;
+    overflow: hidden;
+    height: 490px;
+}
+
+.View_Content {
+    border: 1px solid #dceef7;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    /*height: 409px;*/
+}
+
+
+
+.View_Div {
+    height: 409px;
+}
+
+.ClearBoth {
+    clear: both;
+}
+
+.View_Title {
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+    /*border-bottom: 1px dashed #E4E4E4;*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #00a5d1;
+}
+
+    .View_Title .Title_Left {
+        /*float: left;*/
+        overflow: hidden;
+        display: inline-block;
+        cursor: pointer;
+        text-indent: 15px;
+        height: 40px;
+        line-height: 36px;
+        /*text-align: left;*/
+        font-weight: bold;
+        background: url(../../img/icon_gutter.png) left center no-repeat;
+    }
+
+    .View_Title div {
+        float: left;
+        overflow: hidden;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 5px;
+        height: 40px;
+        line-height: 40px;
+        width: 35px;
+    }
+
+        .View_Title div.icon1 {
+            background: url(../../img/icon1.png) right center no-repeat;
+        }
+
+        .View_Title div.icon2 {
+            background: url(../../img/icon2.png) right center no-repeat;
+        }
+
+        .View_Title div.icon3 {
+            background: url(../../img/icon3.png) right center no-repeat;
+        }
+
+        .View_Title div.icon4 {
+            background: url(../../img/icon4.png) right center no-repeat;
+        }
+
+.Title_Number {
+    text-align: left;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #00CCFA;
+    text-align: center;
+    font-family: YouYuan;
+    font-size: 28px;
+    font-weight: bold;
+    color: White;
+    display: inline-block;
+}
+
+
+.Title_Right {
+    float: right;
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+    .Title_Right span {
+        display: inline-block;
+        float: left;
+        padding-top: 1px;
+    }
+
+.icon-refresh {
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    background-image: url(../../../../Content/img/reload.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+
+#saveBtn {
+    background: #fff;
+    border: 1px solid #06A7C4;
+    color: #00CCFA;
+    border-radius: 0.5em;
+}
+
+    #saveBtn:hover {
+        background: #007493;
+    }

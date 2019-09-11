@@ -1,0 +1,194 @@
+﻿body {
+}
+
+
+.rectangleTimeCount {
+    width: 120px;
+    height: 30px;
+    background-color: #9AFF9A;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.rectangleBtn {
+    width: 120px;
+    height: 30px;
+    background-color: #5CACEE;
+    border-radius: 0px;
+    padding: 2px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.Views {
+    font-size: 12px;
+    font-family: SimSun, Microsoft YaHei;
+}
+
+.ViewCommonLeft {
+    min-width: 510px;
+    width: 40%;
+    float: left;
+    border: 1px solid #E4E4E4;
+    margin: 0 10px 10px 0;
+}
+
+.ViewCommonRight {
+    min-width: 750px;
+    width: 58%;
+    float: left;
+    border: 1px solid #E4E4E4;
+    margin: 0 10px 10px 0;
+}
+
+/*.ViewCommonLeft-1 {
+    min-width: 510px;
+    width: 40%;
+    float: left;
+    border: 1px solid #E4E4E4;
+    margin: 0 10px 10px 0;
+}
+
+.ViewCommonRight-1 {
+    min-width: 750px;
+    width: 55%;
+    float: left;
+    border: 1px solid #E4E4E4;
+    margin: 0 10px 10px 0;
+}*/
+
+.View_Title {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+
+.Title_Left {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.Title_Right {
+    float: right;
+    display: inline-block;
+    /*margin-top: 12px;*/
+}
+
+    .Title_Right span {
+        display: inline-block;
+        float: left;
+        /*padding-top: 1px;*/
+        font-weight: 700;
+        color: #999999;
+    }
+
+    .Title_Right a {
+        font-weight: 700;
+        color: #0066FF;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+.Obj_Info {
+    width: 100%;
+    height: 212px;
+}
+
+    .Obj_Info .OBJ_ITEM {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+.OBJ_ITEM {
+    width: 120px;
+    height: 100px;
+}
+
+    .OBJ_ITEM > * {
+        margin-top: 2px;
+    }
+
+    .OBJ_ITEM .TITLE {
+        height: 20px;
+        line-height: 20px;
+        color: #666666;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: '微软雅黑 Bold', '微软雅黑';
+    }
+
+    .OBJ_ITEM .VALUE {
+        height: 50px;
+        line-height: 50px;
+        color: #008000;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: '华文中宋 Bold', '华文中宋';
+        margin-top: 30px;
+    }
+
+    .OBJ_ITEM .VALUENOT {
+        height: 50px;
+        line-height: 50px;
+        color: red;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: '华文中宋 Bold', '华文中宋';
+        margin-top: 30px;
+    }
+
+
+
+    .OBJ_ITEM .REMARK {
+        height: 20px;
+        color: #ffffff;
+        background-color: #00cc33;
+        text-align: center;
+        width: 110px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: '华文中宋 Regular', '华文中宋';
+    }
+
+    .OBJ_ITEM .REMARKNOT {
+        height: 20px;
+        color: white;
+        background-color: red;
+        text-align: center;
+        width: 110px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: '华文中宋 Regular', '华文中宋';
+    }
+
+.TEXTBTNL {
+    display: inline-block;
+    /*font-family: '华文中宋 Regular', '华文中宋';*/
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 1px;
+    float: left;
+    background-color: #009dda;
+    margin-left: 5px;
+}
+
+.TEXTBTNSEL {
+    background-color: #00cc33;
+}

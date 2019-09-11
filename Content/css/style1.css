@@ -1,0 +1,226 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section ,button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul, li{ list-style:none;}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:active {
+	outline: none;
+}
+body{ font-size:14px;}
+html,body{ height:100%;}
+/*login*/
+.loginBackground{ background:url(loginBackground.png) #dfefff;}
+.layoutRight{ display:inline; float:right;}
+.layoutLeft{ display:inline; float:left;}
+.wap{ position: absolute; left:0; top:50%; margin-top:-255px; height:510px; width:100%; background:#a0d9f7 ;}
+.layout{  overflow:hidden; width:980px; margin:0 auto; }
+h1.loginHeader{ overflow:hidden; height:60px; background:#007493; }
+h1.loginHeader .layout{ overflow:hidden; height:60px; background:url(softLogo.png)  no-repeat left top;}
+h1.loginHeader .layout .layoutRight{ font-size:14px; color:#1591b7; padding-top:20px;}
+h1.loginHeader .layout .layoutRight span{ display:inline-block; padding:0 6px; }
+h1.loginHeader .layout .layoutRight a{ color:#fff;}
+h1.loginHeader .layout .layoutRight a:hover{ color:#66ccff;}
+
+.loginMain{overflow:hidden; height:450px; background: url(loginBg.png)  no-repeat left top;}
+.loginMain .layoutRight{ overflow:hidden; width:300px; margin-top:45px; border-radius:8px; background-color:#FFF; }
+.loginMain .layoutRight h2{text-align:center; font-size:18px; line-height:60px; height:60px;  background-color:#e6f7ff; }
+.loginMain .layoutRight ul li{ margin:25px 20px;}
+.loginMain .layoutRight ul li.loginUser{ padding:6px 0 6px 40px ;  border:1px solid #ccc; border-radius:6px; overflow:hidden;  background:url(loginUser.png) no-repeat left center; }
+.loginMain .layoutRight ul li.loginUser input{ font-size:18px; padding:4px;border:none; outline:none;}
+.loginMain .layoutRight ul li.loginPs{ padding:6px 0 6px 40px; border:1px solid #ccc; border-radius:6px; overflow:hidden; background:url(loginPs.png) no-repeat left center; }
+.loginMain .layoutRight ul li.loginPs input{ font-size:18px; padding:4px;border:none; outline:none;}
+.loginMain .layoutRight ul li button{ overflow:hidden; margin-bottom:30px; margin-top:10px; cursor:pointer; border-radius:6px; text-align:center; width:100%; border:none; height:50px; line-height:50px; color:#FFF; font-size:18px; background-color:#009bbf;  }
+.loginMain .layoutRight ul li button:hover{ background-color:#007493; }
+
+/*layout*/
+
+.layoutHeader{ overflow:hidden; height:70px;  position:relative; z-index:2; background:url(../img/softLogo.png) #007493 no-repeat 10px center;}
+.layoutHeader .layoutRight ul li{ overflow:hidden; position:relative;  cursor:pointer;  float:left;height:70px; border-left:1px solid #0087ab;}
+
+.layoutHeader .layoutRight ul li.icon1{ padding-left:40px; padding-right:30px; background: url(../img/icon1.png) #00a5d1 10px center no-repeat; }
+.layoutHeader .layoutRight ul li.icon1 span{ overflow:hidden; position:absolute; left:40px; top:50%; margin-top:-10px; display:block; width:20px; height:20px;line-height: 20px;text-align: center;color: #fff; border-radius:20px; background-color:#F30;}
+
+.layoutHeader .layoutRight ul li.icon2{ padding-left:40px; padding-right:30px; background: url(../img/icon2.png) #00a5d1 10px center no-repeat; }
+.layoutHeader .layoutRight ul li.icon2 span{ overflow:hidden; position:absolute; left:40px; top:50%; margin-top:-10px; display:block; width:20px; height:20px;line-height: 20px;text-align: center;color: #fff; border-radius:20px; background-color:#F30;}
+
+.layoutHeader .layoutRight ul li.icon13{ padding-left:60px; padding-right:10px; background: url(../img/icon13.png) #00a5d1 10px center no-repeat; }
+.layoutHeader .layoutRight ul li.icon13 .icon14{ overflow:hidden; display:block; padding-right:30px; padding-top:15px; height:55px; max-width:100px; line-height:18px; color:#fff;   background: url(../img/icon14.png)  right center no-repeat;}
+
+.layoutHeader .layoutRight ul li.icon15{ padding-left:60px; padding-right:10px; text-indent:-9999em; background: url(../img/icon15.png) center  center no-repeat; }
+.layoutHeader .layoutRight ul li:hover{ background-color:#0098c1;}
+.layout-split-north{border:none;}
+
+/*west*/
+.navMenu_west{ width:190px;  position:relative; z-index:2; background-color:#00a5d1;}
+.navMenu_bg{ position: fixed; z-index:1; width:190px; height:100%; background-color:#0990b4; }
+.navMenu_panel span{overflow:hidden; display:inline-block;line-height:35px; height:35px; text-indent:10px; color:#FFF; }
+.navMenu_panel a{ position:absolute;  right:5px; top:3px; display:inline-block; height:28px; width:28px; background: url(../img/icon9.png)  center center no-repeat;}
+
+.layout-split-west{ border:none;}
+.layout-split-west .panel-header{overflow:hidden; position:relative; line-height:34px; height:34px; padding:0 5px;  background:#00a5d1; border:none; }
+.layout-split-west .panel-title{ height:34px; line-height:34px; text-indent:8px; font-size:16px; color:#FFF; font-weight:normal; }
+  
+.layout-split-west .accordion .accordion-header{ overflow:hidden; position:relative; cursor:pointer; height:44px; line-height:44px;  border-bottom:1px solid #00a5d1; background-color:#0990b4;}
+.layout-split-west .accordion .accordion-header-selected{background-color:#007493;}
+.layout-split-west .accordion .accordion-header .panel-title{ overflow:hidden; display:inline-block; height:44px; line-height:44px; text-indent:26px; font-size:16px; color:#FFF;}
+.layout-split-west .accordion .accordion-header .panel-icon{left: 0; width:44px;    margin-top: -22px;  height:44px;  overflow: hidden;}
+.layout-split-west .accordion .accordion-header .icon-car{   background: url(../img/nav5.png) center center no-repeat; }
+.layout-split-west .accordion .accordion-header .icon-table_edit{ background: url(../img/nav2.png)  center center no-repeat; }
+.layout-split-west .accordion .accordion-header .icon-monitor{  background: url(../img/nav3.png)  center center no-repeat; }
+.layout-split-west .accordion .accordion-header  .icon-chart_bar{ background: url(../img/nav4.png) center center no-repeat; }
+.layout-split-west .accordion .accordion-header .icon-asterisk_orange{ background: url(../img/nav1.png) center center no-repeat; }
+.layout-split-west .accordion .accordion-header .icon-set1{ background: url(../img/nav6.png)  center center no-repeat; }
+.layout-split-west .accordion .accordion-header .panel-tool{ right:8px;}
+.layout-split-west .accordion .accordion-header .panel-tool .accordion-collapse{ background: url(../img/accordion_arrows.png)  0 0 no-repeat; }
+.layout-split-west .accordion .accordion-header .panel-tool .accordion-expand {
+    background: url(../img/accordion_arrows.png) no-repeat -16px 0;
+}
+.layout-split-west .accordion-noborder .accordion-body,.accordion{ background:#00a5d1; border:none; }
+.layout-split-west .layout-body { border:none;}
+
+.layout-split-west .accordion ul li div.tree-node{ border:none; border-bottom:1px solid #0096be; position:relative; height:30px; padding-top:2px; padding-bottom:2px; padding-left:5px;  }
+.layout-split-west .accordion ul li ul li div.tree-node{ border:none; border-bottom:1px solid #08b4da; position:relative; height:30px; padding-top:2px; padding-bottom:2px; padding-left:40px;  background:#15c2e7; }
+
+.layout-split-west .accordion ul li div.tree-node span[class~="tree-icon"]{ background:none;height:30px; line-height:30px; width:35px; text-align:center; font-size:18px; color:#fff;}
+.layout-split-west .accordion ul li ul li div.tree-node span[class~="tree-icon"]{ display:none;}
+.layout-split-west .accordion ul li div.tree-node .icon-page_white_text
+.layout-split-west .accordion ul li ul li div.tree-node span[class~="tree-icon"]{ background:#3faecf; position:absolute; left:0; top:0; height:34px; width:5px;}
+.layout-split-west .accordion ul li div.tree-node .tree-collapsed,
+.layout-split-west .accordion ul li div.tree-node .tree-collapsedhover,
+.layout-split-west .accordion ul li div.tree-node .tree-expanded,
+.layout-split-west .accordion ul li div.tree-node .tree-expanded-hover{ position:absolute; left:0; top:-1px; height:36px; width:4px;}
+.layout-split-west .accordion ul li div.tree-node .tree-collapsed { background:none;}
+.layout-split-west .accordion ul li div.tree-node .tree-collapsed-hover { background:red;}  
+.layout-split-west .accordion ul li div.tree-node .tree-expanded { background:#007493;}
+.layout-split-west .accordion ul li div.tree-node .tree-expanded-hover{ background:#007493;}
+
+
+.layout-split-west .accordion ul li div.tree-node .tree-title{ color:#fff; font-size:14px; height:30px; line-height:30px;}
+.layout-split-west .accordion ul li div.tree-node.tree-node-hover{background:#0090b6; }
+.layout-split-west .accordion ul li div.tree-node.tree-node-hover .tree-title{ color:#fff; }
+.layout-split-west .accordion ul li div.tree-node.tree-node-hover span[class~="tree-icon"]{ background:#none; }
+.layout-split-west .accordion ul li div.tree-node.tree-node-hover .tree-collapsed{ background:#66cc00; }
+
+
+
+.layout-split-west .accordion ul li div.tree-node.tree-node-selected{background-color:#0090b6;}
+.layout-split-west .accordion ul li div.tree-node.tree-node-selected .tree-title{color:#fff;}
+.layout-split-west .accordion ul li div.tree-node.tree-node-selected span[class~="tree-icon"]{ background:none; }
+
+
+
+.layout-split-west .accordion ul li ul li div.tree-node.tree-node-selected{background-color:#97dcff;}
+.layout-split-west .accordion ul li ul li div.tree-node.tree-node-selected .tree-title{color:#036;}
+
+.layout-split-west .accordion ul li div.tree-node  span[class~="tree-indent"]{ width:0; }
+
+.layout-split-west .accordion ul li div.tree-node.tree-node-hover > .tree-indent:first-child { position:absolute; left:7px; top:0; height:34px; width:30px;  background: url(../img/iconNav2_out.png)  center center no-repeat; }
+.layout-split-west .accordion ul li div.tree-node > .tree-indent:first-child {  position:absolute; left:7px; top:0; height:34px; width:30px;  background: url(../img/iconNav2.png)  center center no-repeat; }
+.layout-split-west .accordion ul li div.tree-node.tree-node-selected > .tree-indent:first-child {   position:absolute; left:7px; top:0; height:34px; width:30px; background: url(../img/iconNav2_on.png)  center center no-repeat; }
+
+.layout-split-west .panel-header .panel-tool .layout-button-left{ background: url(../img/layout_arrows.png)  0 0 no-repeat; }
+
+.layout-expand .panel-header .panel-tool .layout-button-right{ background: url(../img/layout_arrows.png)  0 -16px no-repeat; }
+.layout-split-west .panel-header .panel-tool{ right:8px;}
+
+
+
+.layout-panel-center .easyui-tabs .tabs-header {
+    padding-top:4px; 
+}
+.layout-panel-center .easyui-tabs .tabs-header .tabs {
+    height:28px;
+    }
+    .layout-panel-center .easyui-tabs .tabs-header .tabs li.tabs-selected a.tabs-inner {
+    height:27px; line-height:27px;
+    }
+    /*.layout-panel-center .easyui-tabs .tabs-header a.l-btn-plain span.l-btn-left {
+    height:30px;
+    line-height:30px;
+    }
+    .layout-panel-center .easyui-tabs .tabs-header a.l-btn span span.l-btn-text {
+    height:30px;
+    line-height:30px;
+    }
+    .layout-panel-center .easyui-tabs .tabs-header a.l-btn span span.l-btn-text .icon-arrow_refresh {
+    background:url(../img/icon19.png) no-repeat center center;
+    width:30px;
+        }*/
+.navMenu_head .navMenu_tool{ position:absolute; right:5px; top:8px;}
+.navMenu_head .icon12{overflow:hidden; display:inline-block; height:28px; width:28px; background: url(../img/icon12.png)  center center no-repeat;}
+
+.navMenu_node{ overflow:hidden; position:relative; cursor:pointer; height:35px; border-bottom:1px solid #0096be;}
+.navMenu_node .icon10{ overflow:hidden; display:inline-block; height:35px; width:28px; float:left;  background: url(../img/icon10.png)  center center no-repeat;}
+.navMenu_node .navMenu_title{overflow:hidden; display:inline-block; height:35px; line-height:35px; text-indent:0; font-size:14px; color:#FFF;}
+.navMenu_node .navMenu_tool{ position:absolute; right:5px; top:3px;}
+.navMenu_node .icon12{overflow:hidden; display:inline-block; height:28px; width:28px; background: url(../img/icon12.png)  center center no-repeat;}
+.navMenu_node .icon16{ overflow:hidden; display:inline-block; height:35px; width:35px;float:left;  background: url(../img/icon16.png)  right center no-repeat;}
+.navMenu_node .gutter{ display:inline-block; width:6px; height:35px; float:left;}
+.navMenu_tree >li > .navMenu_node.on .gutter{ background-color:#007493;}
+.navMenu_tree >li > ul > li .navMenu_node.on{ background-color:#ccedf6; }
+.navMenu_tree >li > ul > li .navMenu_node.on .navMenu_title{ color:#036;}
+.navMenu_tree >li > ul > li .navMenu_node.on .icon16{ background: url(../img/icon16_on.png)  center center no-repeat;}
+
+/*tab*/
+.main_east{ margin-left:-200px; width:100%;}
+.main_layout{ margin-left:190px;}
+.bg{ background-color:#f1faff;}
+.tabHead{ position:relative; padding-left:15px; padding-top:4px; line-height:31px; height:31px; background: url(../img/tabHead.gif) bottom repeat-x #d0efff; }
+.tabBox ul{ overflow:hidden; }
+.tabBox li{ float:left; margin-right:5px; padding:0 8px; border:1px solid #b4d6e8; border-bottom:none;  }
+.tabBox li.on{background-color:#e9f8ff; }
+.tabBox li .icon11{ float:left; display:inline-block;  height:30px; line-height:30px; width:20px;background: url(../img/icon11.png)  center center no-repeat;} 
+.tabBox li a{ float:left; display:inline-block;  height:30px; line-height:30px;} 
+.tabBox li .close{  float:left; display:inline-block; cursor:pointer;  height:30px; line-height:30px;  width:20px; margin-left:4px; background: url(../img/icon17.png)  center center no-repeat;}
+.tabBox li .close:hover{background: url(../img/icon17_hover.png)  center center no-repeat;}
+
+.tabHead .tabHead_tool{ position:absolute; right:0; top:0; }
+.tabHead .tabHead_tool span{overflow:hidden;display:inline-block; float:left; cursor:pointer; padding:2px 4px;  height:30px; border-left:1px solid #b4d6e8; }
+.tabHead .tabHead_tool .icon18{float:left; overflow:hidden; display:inline-block; cursor:pointer; border-radius:5px;  height:30px; line-height:30px; width:35px;  background: url(../img/icon18.png)  center center no-repeat;}
+.tabHead .tabHead_tool .icon18:hover{ background-color:#e9f8ff}
+.tabHead .tabHead_tool .icon19{float:left;overflow:hidden; display:inline-block;  cursor:pointer; border-radius:5px; height:30px; line-height:30px; width:35px;  background: url(../img/icon19.png)  center center no-repeat;}
+.tabHead .tabHead_tool .icon19:hover{ background-color:#e9f8ff}
+
+.mainBox{ padding: 10px ;}
+.width2{ width:50%}
+.width3{ width:33.3%}
+.width4{ width:25%}
+.width5{ width:20%}
+.mainBox_warp{ overflow:hidden; margin: 8px; border-radius:8px;}
+.mainBox_warp .mainBox_head{ overflow:hidden; position:relative; color:#FFF; font-size:16px; border-top-left-radius:8px; border-top-right-radius:8px; background-color:#00a5d1; }
+.mainBox_warp .mainBox_head b{ position:absolute; display: inline-block;  right:5px; top:0;   }
+.mainBox_warp .mainBox_head b a{display: inline-block; text-indent:-9999em;height:40px;width:35px;  background: url(../img/icon20.png)  center center no-repeat;}
+.mainBox_warp .mainBox_head strong{float:left; overflow:hidden; display:inline-block; cursor:pointer; text-indent:15px;   height:40px; line-height:36px; text-align:left;background: url(../img/icon_gutter.png)  left center no-repeat; }
+.mainBox_warp .mainBox_head span{float:left; overflow:hidden; display:inline-block; cursor:pointer; margin-left:5px;  height:40px; line-height:40px; width:35px; }
+.mainBox_warp .mainBox_head span.icon3{ background: url(../img/icon3.png)  right center no-repeat;}
+.mainBox_warp .mainBox_head span.icon4{ background: url(../img/icon4.png)  right center no-repeat;}
+.mainBox_warp .mainBox_head span.icon5{ background: url(../img/icon5.png)  right center no-repeat;}
+.mainBox_warp .mainBox_head span.icon6{ background: url(../img/icon6.png)  right center no-repeat;}
+.mainBox_warp .mainBox_head span.icon7{ background: url(../img/icon7.png)  right center no-repeat;}
+.mainBox_warp .mainBox_head span.icon8{ background: url(../img/icon8.png)  right center no-repeat;}
+
+.mainBox .mainBox_content{ border:1px solid #dceef7; border-top:none; border-bottom-left-radius:8px; border-bottom-right-radius:8px; background-color:#fff;}
+.mainBox_max{ height:320px; }
+.mainBox_min{ height:240px;}
+.listBox{ padding:10px;}
+.listBox ul { overflow:hidden;}
+.listBox ul li{ cursor:pointer; line-height:30px; text-indent:20px; background: url(../img/icon21.png)  left center no-repeat; }
+.listBox ul li:hover{  background: url(../img/icon21_hover.png) #f1faff left center no-repeat;}
+.listBox ul li strong{ color:#F30;}
+
